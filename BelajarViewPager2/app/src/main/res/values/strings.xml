@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BelajarViewPager2</string>
     <string name="order">PESAN</string>
-    <string name="next">Selanjutnya</string>
+    <string name="next">SELANJUTNYA</string>
     <string name="deliv">ANTAR</string>
     <string name="accept">TERIMA</string>
     <string name="finish">Selesai</string>
