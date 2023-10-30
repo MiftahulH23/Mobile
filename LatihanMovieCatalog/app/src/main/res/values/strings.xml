@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CatalogMovie</string>
+    <string name="judulmovie">Scobydoo</string>
+    <string name="sinopsis">Lorem Ipsum</string>
+    <string name="rating">16.325</string>
+    <string name="durasi">45 menit</string>
+    <string name="genre">Action</string>
+    <string name="bahasa">Indonesia</string>
+    <string name="listpemeran">Scooby</string>
+</resources>
