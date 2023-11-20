@@ -39,7 +39,7 @@ class TambahFragment : Fragment() {
         val menit = edt_menit.text.toString()
         val waktu = jam + ":" + menit
         val mk = edt_nama_mk.text.toString()
-        val nm_dosen = edt_nm_dosen.text.toString()
+        val nm_dosen = edt_nama_dosen.text.toString()
 
         if (cekInput(hari, jam, menit, mk, nm_dosen)){
             val jadwal = Jadwal(0, hari, waktu, mk, nm_dosen)

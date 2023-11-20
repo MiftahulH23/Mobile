@@ -18,9 +18,8 @@
         android:textColor="#000"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constrainLeft_toLeftOf="parent"
-        app:layout_constrainRight_toRightOf="parent"
-        app:layout_constrainTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,8 +32,7 @@
         android:hint="Hari"
         android:inputType="text"
         android:textSize="16sp"
-        app:layout_constrainLeft_toLeftOf="parent"
-        app:layout_constrainTop_toBottomOf="@id/tx_update_judul"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tx_update_judul" />
 
@@ -46,8 +44,7 @@
         android:layout_marginTop="24dp"
         android:hint="Jam"
         android:inputType="number"
-        app:layout_constrainLeft_toLeftOf="parent"
-        app:layout_constrainTop_toBottomOf="@id/edt_update_hari"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_update_hari" />
 
@@ -59,8 +56,7 @@
         android:layout_marginTop="24dp"
         android:hint="Menit"
         android:inputType="number"
-        app:layout_constrainLeft_toRightOf="@id/edt_update_jam"
-        app:layout_constrainTop_toBottomOf="@id/edt_update_hari"
+        app:layout_constraintLeft_toRightOf="@id/edt_update_jam"
         app:layout_constraintStart_toEndOf="@+id/edt_update_jam"
         app:layout_constraintTop_toBottomOf="@+id/edt_update_hari" />
 
@@ -72,7 +68,6 @@
         android:layout_marginTop="36dp"
         android:hint="Nama MK"
         android:inputType="text"
-        app:layout_constrainTop_toBottomOf="@id/edt_update_jam"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_update_menit" />
 
@@ -84,7 +79,6 @@
         android:layout_marginTop="44dp"
         android:hint="Nama Dosen"
         android:inputType="text"
-        app:layout_constrainTop_toBottomOf="@id/edt_update_nama_mk"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_update_nama_mk" />
 
@@ -96,7 +90,6 @@
         android:backgroundTint="@android:color/holo_blue_light"
         android:text="@string/update"
         android:textStyle="bold"
-        app:layout_constrainTop_toBottomOf="@id/edt_updata_nama_dosen"
         app:layout_constraintTop_toBottomOf="@+id/edt_updata_nama_dosen"
         tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

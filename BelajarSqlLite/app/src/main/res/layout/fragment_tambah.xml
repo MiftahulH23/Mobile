@@ -19,7 +19,6 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,41 +56,39 @@
         android:hint="Menit"
         android:inputType="number"
         app:layout_constraintLeft_toRightOf="@id/edt_jam"
-        app:layout_constraintop_toBottomOf="@id/edt_hari"
         app:layout_constraintStart_toEndOf="@+id/edt_jam"
         app:layout_constraintTop_toBottomOf="@+id/edt_hari" />
 
     <EditText
         android:id="@+id/edt_nama_mk"
-        android:layout_width="398dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="356dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
         android:hint="Nama MK"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@id/edt_jam"
-        app:layout_constraintTop_toBottomOf="@+id/edt_menit"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_menit" />
 
     <EditText
-        android:id="@+id/edt_nm_dosen"
-        android:layout_width="395dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/edt_nama_dosen"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
         android:hint="Nama Dosen"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@id/edt_nama_mk"
-        app:layout_constraintTop_toBottomOf="@+id/edt_nama_mk"
-        tools:layout_editor_absoluteX="19dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nama_mk" />
 
     <Button
         android:id="@+id/btn_add"
-        android:layout_width="356dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="@android:color/holo_blue_light"
-        android:text="Tambah Jadwal"
+        android:text="@string/update"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/edt_nm_dosen"
-        app:layout_constraintTop_toBottomOf="@+id/edt_nm_dosen"
-        tools:layout_editor_absoluteX="27dp" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_nama_dosen"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
