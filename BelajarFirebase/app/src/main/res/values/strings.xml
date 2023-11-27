@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BelajarFirebase</string>
+    <string name="nama">Miftahul Huda</string>
+    <string name="no_hp">0822678904</string>
+    <string name="usia">21</string>
+    <string name="kota">Bangkinang</string>
+    <string name="simpan">Simpan</string>
+    <string name="judul">Input Data ke Firebase</string>
+    <string name="update_data">Update Data Anggota</string>
+    <string name="update">Ubah</string>
+    <string name="judul_tambah_detil">Tambah Data Anggota</string>
+    <string name="detil_alamat">Alamat Lengkap</string>
+    <string name="detil_tombol_tambah">Tambah Data</string>
+    <string name="item_alamat">Jl.Tegal Sari</string>
+    <string name="item_kode">245678</string>
+    <string name="anggota_nama">Nama</string>
+    <string name="anggota_kota">Kota</string>
+    <string name="anggota_usia">Usia</string>
+    <string name="anggota_hp">No Hp</string>
+    <string name="icon">Icon</string>
+</resources>
